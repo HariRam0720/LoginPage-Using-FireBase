@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--    android:background="@drawable/back_select"-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/m_person"
+            android:layout_width="285dp"
+            android:layout_height="284dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/food_delivery"
+            app:layout_constraintBottom_toTopOf="@id/m_animation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.31" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/m_animation"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="-120dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.544"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/m_person"
+            app:layout_constraintVertical_bias="0.822"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/loader" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/m_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-3dp"
+        android:background="@drawable/m_wave"
+        android:rotation="180" />
+
+</RelativeLayout>

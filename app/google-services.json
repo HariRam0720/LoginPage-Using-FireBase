@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "934058630187",
+    "project_id": "model-axle-343212",
+    "storage_bucket": "model-axle-343212.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934058630187:android:060d26d9cc722ff540de6e",
+        "android_client_info": {
+          "package_name": "com.example.first_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934058630187-6fek070365jnqujm98b4e2hk2g7surhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAihuMsbhvZzj1IhIuzbgsyi789TcLeXco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934058630187-6fek070365jnqujm98b4e2hk2g7surhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934058630187:android:4efff277146c5c2440de6e",
+        "android_client_info": {
+          "package_name": "com.example.foodtrust"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934058630187-6fek070365jnqujm98b4e2hk2g7surhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAihuMsbhvZzj1IhIuzbgsyi789TcLeXco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934058630187-6fek070365jnqujm98b4e2hk2g7surhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
